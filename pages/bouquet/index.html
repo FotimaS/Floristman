@@ -48,9 +48,20 @@
             <div class="container">
                 <div class="descript__block">
                     <div class="descript__block--left">
-                        <img src="../../assets/img/card.png" alt="">
-                        <div class="db-swiper">
-
+                        <img class="image-card" src="../../assets/img/card.png" alt="">
+                        <div class="swiper__block">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="../../assets/img/circle-card.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="../../assets/img/circle-card.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="../../assets/img/circle-card.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="../../assets/img/circle-card.png" alt=""></div>
+                                </div>
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="descript__block--right">
@@ -293,6 +304,34 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('.swiper', {
+            // Default parameters
+            slidesPerView: 1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                435: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

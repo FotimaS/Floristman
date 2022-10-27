@@ -466,3 +466,154 @@ justify-content: center;
 .fb-bot-1 h5 {
     position: absolute;
 }
+@media (max-width:1460px) {
+    .fb-top-1 {
+        top: 432.5%;
+    }
+    .fb-bot-1 {
+        top: 479%;
+    }
+}
+@media (max-width:1100px) {
+    .first-section {
+        height: 75vh;
+    }
+    .fb-top-1 {
+        top: 392.5%;
+    }
+    .fb-bot-1 {
+        top: 439%;
+    }
+    .footer__block--top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__block--bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 484%;
+    }
+}
+@media (max-width:730px) {
+    .fb-top-1 {
+        display: none;
+    }
+    .fb-bot-1 {
+        display: none;
+    }
+    .sbt-card-top {
+        gap: 55px;
+    }
+    .decor__block--center form input {
+        width: 600px;
+    }
+    .first-section {
+        height: 45vh;
+    }
+}
+@media (max-width:570px) {
+    .sbt-card-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sbt-right {
+        gap: 50px;
+    }
+    .sbt-card-bot {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .decor__block--center form input {
+        width: 450px;
+    }
+}
+@media (max-width:475px) {
+    .db-top {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .sale__block--top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sbt-card-top {
+        gap: 10px;
+    }
+    .sale-section {
+        padding: 30px 0 0 0;
+    }
+    .decor__block--top img {
+        display: none;
+    }
+    .db-top {
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .decor__block--center form input {
+        width: 325px;
+    }
+}
+@media (max-width:415px) {
+    .first-section {
+        height: 25vh;
+    }
+    .first__block--top h1 {
+        font-size: 45px;
+    }
+    .sbt-card-top h3 {
+        font-size: 26px;
+    }
+    .total__block-2 {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .total__block-3 {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .total__block-5 {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .total-section {
+        padding: 80px 0 0 0;
+    }
+    .total__block h1 {
+        font-size: 40px;
+    }
+    .decor__block h1 {
+        font-size: 35px;
+    }
+    .decor__block--center form input {
+        font-size: 20px;
+        padding: 23px 20px;
+    }
+    .decor__block--bottom button {
+        font-size: 15px;
+        width: 220px;
+    }
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fb-email h5 {
+        font-size: 15px;
+    }
+}
+@media (max-width:325px) {
+    .sale__block--top {
+        max-width: 300px;
+        width: 100%;
+    }
+    .decor__block--center form input {
+        height: 65px;
+        width: 300px;
+    }
+    .first-section {
+        height: 21vh;
+    }
+}

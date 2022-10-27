@@ -358,3 +358,137 @@ color: rgba(0, 0, 0, 0.54);
         
     }
 }
+@media (max-width:1460px) {
+    .fb-top-1 {
+        top: 358.8%;
+    }
+    .fb-bot-1 {
+        top: 405.5%;
+    }
+}
+@media (max-width:1100px) {
+    .first-section {
+        height: 73vh;
+    }
+    .first__block--bottom p {
+        bottom: -130%;
+    }
+    .fb-top-1 {
+        top: 316.8%;
+    }
+    .fb-bot-1 {
+        top: 408.5%;
+    }
+    .footer__block--top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__block--bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:900px) {
+    .location__block {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 14px;
+    }
+    .fb-bot-1 {
+        display: none;
+    }
+    .fb-top-1 {
+        display: none;
+    }
+    .data {
+        width: 550px;
+    }
+    .info {
+        width: 550px;
+    }
+}
+@media (max-width:700px) {
+    .first-section {
+        height: 43vh;
+    }
+    .first__block--bottom p {
+        bottom: -60%;
+    }
+    .lb--left img {
+        max-width: 500px;
+        width: 100%;
+
+    }
+}
+@media (max-width:520px) {
+    .data {
+        width: 400px;
+    }
+    .info {
+        width: 400px;
+    }
+}
+@media (max-width:370px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .data {
+        width: 290px;
+    }
+    .info {
+        width: 290px;
+    }
+    .fb-email h5 {
+        font-size: 18px;
+    }
+    .question-section {
+        padding-top: 0;
+    }
+    .location-section {
+        padding-bottom: 10px;
+    }
+    .question__block h1 {
+        font-size: 29px;
+    }
+    .location__block {
+        background-color: transparent;
+    }
+    .lb--right h3 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lb--right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first__block--top h1 {
+        font-size: 35px;
+    }
+    .first__block--bottom p {
+        font-size: 13px;
+        bottom: -35%;
+    }
+    .first-section {
+        height: 21vh;
+    }
+    .question__block h1 {
+        margin-bottom: 10px;
+    }
+    .data {
+        font-size: 20px;
+    }
+    .info {
+        font-size: 20px;
+        padding: 24px 30px 311px 45px;
+    }
+    .footer__block p {
+        font-size: 15px;
+    }
+}

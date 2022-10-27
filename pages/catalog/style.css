@@ -399,3 +399,86 @@ border: none;
 .fb-bot-1 h5 {
     position: absolute;
 }
+@media (max-width:1460px) {
+    .fb-top-1 {
+        top: 560%;
+    }
+    .fb-bot-1 {
+        top: 606%;
+    }
+    .info__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:1135px) {
+    .fb-top-1 {
+        top: 641%;
+    } 
+    .fb-bot-1 {
+        top: 687%;
+    }
+}
+@media (max-width:1100px) {
+    .footer__block--top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__block--bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fb-bot-1 {
+        top: 734%;
+    }
+    .first__block--bottom p {
+        display: none;
+    }
+}
+@media (max-width:900px) {
+    .first-section {
+        height: 60vh;
+    }
+    .first__block--bottom p {
+        bottom: -110%;
+    }
+}
+@media (max-width:770px) {
+    .ibr-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fb-bot-1 {
+        display: none;
+    }
+    .fb-top-1 {
+        display: none;
+    }
+}
+@media (max-width:600px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+@media (max-width:405px) {
+    .first-section {
+        height: 26vh;
+    }
+    .first__block--top h1 {
+        font-size: 40px;
+    }
+    .first__block--bottom p {
+        font-size: 12px;
+        bottom: -40%;
+    }
+    .fb-email h5 {
+        font-size: 15px;
+    }
+}
+@media (max-width:321px) {
+    .first-section {
+        height: 21vh;
+    }
+}

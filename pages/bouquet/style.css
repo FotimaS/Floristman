@@ -388,7 +388,7 @@
 
 .tcn-news-one {
     position: absolute;
-    bottom: -163%;
+    bottom: -164%;
     padding: 0 0 0 4px;
     display: flex;
     flex-direction: column;
@@ -667,4 +667,166 @@
 }
 .fb-bot-1 h5 {
     position: absolute;
+}
+.swiper {
+    max-width: 448px;
+}
+.swiper-slide img {
+    width: 82px;
+    height: 82px;
+}
+@media (max-width:1460px) {
+    .fb-top-1 {
+        top: 354.3%;
+    }
+    .fb-bot-1 {
+        top: 400%;
+    }
+    .tcn-news-one {
+        bottom: -143%;
+    }
+    .tc-news-three {
+        bottom: -162%;
+        right: 71%;
+    }
+    .tc-news-four {
+        bottom: -162%;
+        right: 50.6%;
+    }
+    .tc-news-two {
+        bottom: -162%;
+        right: 30.2%;
+    }
+    .tc-news-five {
+        bottom: -162%;
+        right: 9.8%;
+    }
+}
+@media (max-width:1100px) {
+    .tc-news-two {
+        display: none;
+    }
+    .tc-news-three {
+        display: none;
+    }
+    .tc-news-four {
+        display: none;
+    }
+    .tc-news-five {
+        display: none;
+    }
+    .sales__block-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fb-bot-1 {
+        top: 499%;
+    }
+    .fb-top-1 {
+        top: 408%;
+    }
+    .footer__block--top, .footer__block--bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dbr-center {
+        gap: 30px;
+    }
+}
+@media (max-width:945px) {
+    .tcn-news-one {
+        display: none;
+    }
+    .btn {
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+@media (max-width:845px) {
+    .dbr-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dbr-summit {
+        margin-bottom: 15px;
+    }
+    .first-section {
+        height: 56vh;
+
+    }
+    .first__block--top h1 {
+        font-size: 41px;
+    }
+    .first__block--bottom p {
+        font-size: 15px;
+        bottom: -45%;
+    }
+}
+@media (max-width:720px) {
+    .descript__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .descript__block--right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fb-bot-1 {
+        display: none;
+    }
+    .fb-top-1 {
+        display: none;
+    }
+}
+@media (max-width:490px) {
+    .first__block--top h1 {
+        font-size: 18px;
+    }
+    .first__block--bottom p {
+        font-size: 10px;
+    }
+    .first-section {
+        height: 30vh;
+    }
+    .image-card {
+        display: none;
+    }
+    .swiper-slide {
+        max-width: 82px;
+        height: 82px;
+    }
+    .fb-email h5 {
+        font-size: 18px;
+    }
+    .swiper {
+        max-width: 287px;
+        width: 100%;
+    }
+}
+@media (max-width:360px) {
+    .nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .first__block--top h1 {
+        line-height: 30px;
+    }
+    .first-section {
+        height: 20vh;
+    }
+    .buy__block h1 {
+        font-size: 35px;
+    }
+    .comments-section {
+        padding-bottom: 20px;
+    }
+    .buy-section {
+        padding-bottom: 20px;
+    }
+    .footer__block--top {
+        margin-top: 30px;
+    }
 }
