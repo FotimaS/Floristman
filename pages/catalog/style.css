@@ -474,7 +474,7 @@ border: none;
         font-size: 15px;
     }
 }
-@media (max-width:321px) {
+@media (max-width:322px) {
     .first-section {
         height: 21vh;
     }
