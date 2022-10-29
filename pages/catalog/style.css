@@ -431,9 +431,6 @@ border: none;
     .fb-bot-1 {
         top: 734%;
     }
-    .first__block--bottom p {
-        display: none;
-    }
 }
 @media (max-width:900px) {
     .first-section {
