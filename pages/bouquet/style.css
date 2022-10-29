@@ -9,6 +9,9 @@
     width: 100%;
     margin: 0 auto;
 }
+.nav-logo a {
+    cursor: pointer;
+}
 .header {
     background: #FCEFE4;
     padding: 8px 0;

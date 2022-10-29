@@ -18,6 +18,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.nav-logo a {
+    cursor: pointer;
+}
 .nav-right {
     display: flex;
     gap: 20px;
